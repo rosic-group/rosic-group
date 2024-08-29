@@ -1,15 +1,19 @@
 - name: Prof. Budimir Rosic
   photo: Budimir-Rosic.jpg
-  info: Associate professor of Engineering Science, started 2009
+  info: Associate professor of Engineering Science, started October 2009
+  short_bio: todo
   email: budimir.rosic@eng.ox.ac.uk
-  number_educ: 2
-  education1: BSc, MA University of Belgrade
-  education2: PhD, <a href="https://whittle.eng.cam.ac.uk/">Whittle Laboratory</a>, University of Cambridge under supervision of Prof John Denton
+  website:
+  number_educ: 0
+  education1: 
+  education2:
 
 - name: Dr. Mark Baker
   photo: Mark-Baker.jpg
-  info: Postdoctoral researcher, started 2022
+  info: Postdoctoral researcher, started October 2022
+  short_bio: todo
   email: mark.baker@eng.ox.ac.uk
-  number_educ: 2
-  education1: MEng, Engineering Science, University of Oxford
-  education2: PhD, University of Oxford under supervision of Prof. Budimir Rosic
+  website:
+  number_educ: 0
+  education1: 
+  education2:

@@ -1,81 +1,69 @@
 ---
-title: "Allan Lab - Team"
+title: "Rosic Lab - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "Rosic Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
+
+<style>
+
+.button {
+    clear: left;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.black {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+</style>
 
 # Group Members
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-Jump to [Staff](#staff), [Master students](#master-and-bachelor-students), [Alumni](#alumni).
+Jump to [Staff](#staff), [Master students](#master-students), [Alumni](#alumni).
 
 ## Staff
-{% assign number_printed = 0 %}
+
 {% for member in site.data.team_members %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<div class="col-sm-12 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
+  
+  <div style='margin-left:20%;'>
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
+  
+  <p style="font-size:.8em">{{ member.short_bio }}</p>
+  </div>
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
+  <p style="clear:both;"></p>
+  <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
+  {{ member.name }}'s Personal Website</button>
 
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
 
 
 ## Master Students
