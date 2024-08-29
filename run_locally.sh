@@ -14,7 +14,7 @@ else
     echo "Port $PORT is not in use."
 fi
 
-jekyll serve --port $PORT &
+jekyll serve --trace --port $PORT &
 
 sleep 3 
 
