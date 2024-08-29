@@ -71,7 +71,7 @@ We are grateful for funding from Leiden University, [LMU ](https://www.lmu.de) [
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Oxford_Square.png" style="width: 210px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Oxford_Square.png" style="width: 190px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/EngineeringScience_Logo.jpg" style="width: 190px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/OTI_Logo.png" style="width: 190px">
 </figure>
