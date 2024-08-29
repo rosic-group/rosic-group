@@ -1,11 +1,8 @@
-# Allan Lab Website
+# Rosic Lab Website
 
-This is the website of our academic research group at Leiden University.
+This is the website of our academic research group at University of Oxford.
 
-This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to make it simple yet adaptable, so that it is easy for you to use it as a template. Plese feel free to copy and modify for your own purposes.  You don't have to link to us or mention us (but of course we appreciate it).
+[![pages-build-deployment](https://github.com/rosic-group/rosic-group/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/rosic-group/rosic-group/actions/workflows/pages/pages-build-deployment)
 
-Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
-
-
-Copyright Allan Lab. Code released under the MIT License.
+Copyright Rosic Lab. Code released under the MIT License.
 
