@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "The Rosic Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "The Rosic lab at University of Oxford"
 sitemap: false
 permalink: /
 ---
