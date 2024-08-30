@@ -34,7 +34,7 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies)
 
 
 Jump to [Staff](#staff), [Master students](#master-students), [Alumni](#alumni).
@@ -50,14 +50,18 @@ Jump to [Staff](#staff), [Master students](#master-students), [Alumni](#alumni).
   
   <div style='margin-left:20%;'>
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  
+  <i>{{ member.info }}<br> <!--<br>email: <{{ member.email }}></i> -->
+  Email: <a href="mailto:{{ member.email }}"><i>{{ member.email }}</i></a>
+
   <p style="font-size:.8em">{{ member.short_bio }}</p>
   </div>
 
-  <p style="clear:both;"></p>
-  <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
-  {{ member.name }}'s Personal Website</button>
+  {% if member.website %}
+    <p style="clear:both;"></p>
+    <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
+      {{ member.name }}'s Personal Website
+    </button>
+  {% endif %}
 
 </div>
 
