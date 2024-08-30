@@ -1,9 +1,10 @@
-- name: Dr. Jamie Saw
-  photo: Mark-Baker.jpg
-  duration: In the Rosic Lab 2017 - 2021
+- name: Nikolas Karefyllidis
+  photo: Nikolas-K.JPG
+  duration: In the Rosic Lab 2020 - 2024
   info: DPhil Student
-  email: jamie.saw@eng.ox.ac.uk
-  number_educ: 2
-  education1: MEng, Engineering Science, University of Oxford
-  education2: PhD, University of Oxford
+  email: nikolas.karefyllidis@coolbrook.com
+  short_bio: Senior Aerodynamicist - Coolbrook
+  number_educ: 0
+  education1:
+  education2:
 

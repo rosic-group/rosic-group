@@ -3,7 +3,8 @@
   info: Associate professor of Engineering Science, started October 2009
   short_bio: put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,
   email: budimir.rosic@eng.ox.ac.uk
-  website:
+  website: https://www.st-annes.ox.ac.uk/cpt_people/rosic-dr-budimir/
+  linkedin:
   number_educ: 0
   education1: 
   education2:
@@ -14,6 +15,18 @@
   short_bio: put short bio here, put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,
   email: mark.baker@eng.ox.ac.uk
   website:
+  linkedin: https://www.linkedin.com/in/linkmb/
   number_educ: 0
   education1: 
   education2:
+
+- name: Dylan Rubini
+  photo: Mark-Baker.jpg
+  info: DPhil candidate, started October 2020
+  short_bio: put short bio here, put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,put short bio here,
+  email: dylan.rubini@eng.ox.ac.uk
+  website: https://dylanrubini.github.io/
+  linkedin:
+  number_educ: 0
+  education1: 
+  education2:    
