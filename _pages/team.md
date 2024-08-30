@@ -56,11 +56,21 @@ Jump to [Staff](#staff), [Master students](#master-students), [Alumni](#alumni).
   <p style="font-size:.8em">{{ member.short_bio }}</p>
   </div>
 
+  <!-- Clear Floats -->
+  {% if member.website or member.linkedin %}
+  <p style="clear:both;"></p>
+  {% endif %}
+
+  <!-- Website or LinkedIn Button -->
+
   {% if member.website %}
-    <p style="clear:both;"></p>
-    <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
-      {{ member.name }}'s Personal Website
-    </button>
+  <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
+    {{ member.name }}'s Personal Website
+  </button>
+  {% else %}
+  {% if member.linkedin %}
+  <button class="button black" onclick="window.location.href='{{ member.linkedin }}'" type="button"> {{ member.name }}'s LinkedIn Profile</button>
+  {% endif %}
   {% endif %}
 
 </div>
@@ -68,7 +78,6 @@ Jump to [Staff](#staff), [Master students](#master-students), [Alumni](#alumni).
 </div>
 
 {% endfor %}
-
 
 ## Master Students
 {% assign number_printed = 0 %}
@@ -138,7 +147,8 @@ Jump to [Staff](#staff), [Master students](#master-students), [Alumni](#alumni).
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  <i>{{ member.duration }} <br> Past Role: {{ member.info }}</i>
+  <p style="font-size:0.9em">{{ member.short_bio }}</p>
   <ul style="overflow: hidden">
 
   </ul>
