@@ -27,7 +27,10 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 # Markdown Processing
 kramdown:

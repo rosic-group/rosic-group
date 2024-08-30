@@ -1,0 +1,89 @@
+---
+layout: post
+title: Projects
+---
+
+todo
+
+<div class="projects-list">
+  {% for project in site.projects %}
+      <div class="project-box">
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.description }}</p>
+        <a href="{{ project.url | relative_url }}">
+          <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
+        </a>
+        <a href="{{ project.url | relative_url }}" class="project-link">Learn More</a>
+      </div>
+  {% endfor %}
+</div>
+
+
+<style>
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centers the project boxes */
+    margin-top: 40px; /* Increased margin for breathing space */
+    padding: 0 20px; /* Horizontal padding for mobile responsiveness */
+  }
+  
+  .project-box {
+    background-color: #ffffff; /* White background for a clean look */
+    border-radius: 10px; /* Rounded corners for a modern feel */
+    border: 1px solid #e0e0e0; /* Light border to differentiate the card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensures content fits within rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    width: 100%; /* Full width for small screens */
+    max-width: 320px; /* Set max width for larger screens */
+    margin-bottom: 30px; /* Space below each project box */
+    text-align: center;
+  }
+
+  .project-box:hover {
+    transform: translateY(-10px); /* Lifts the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances shadow on hover */
+  }
+
+  .project-image {
+    width: 100%; /* Full width to fit the card */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Maintains aspect ratio and covers entire area */
+    border-bottom: 1px solid #e0e0e0; /* Divides image and content */
+  }
+
+  .project-content {
+    padding: 15px 20px; /* Padding inside the box */
+  }
+
+  .project-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333; /* Darker text for better contrast */
+    margin: 10px 0;
+  }
+
+  .project-description {
+    font-size: 0.9em;
+    color: #666; /* Lighter gray for less emphasis */
+    margin-bottom: 15px;
+  }
+
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Rounded button edges */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+
+  .project-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+</style>
+
