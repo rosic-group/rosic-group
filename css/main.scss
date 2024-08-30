@@ -10,7 +10,8 @@ img { margin-bottom: 24px;
 
 
 body {
-	padding-top: 70px;
+	padding-top: 90px;
+	font-size: 18px; /* Base font size for body text */
 }
 
 figcaption {
@@ -43,7 +44,7 @@ firstp {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1200px; /* or 950px */
 }
 
 /* Home, News */
