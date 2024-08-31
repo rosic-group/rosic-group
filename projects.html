@@ -1,12 +1,20 @@
 ---
-layout: post
+layout: default
 title: Projects
 ---
 
-todo
+<article>
+  <header>
+    <h1>Research Projects</h1>
+  </header>
+  <p>Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, Lorem Ipsum dolor set amet, ....</p>
+</article>
+
+<br/><br/>
 
 <div class="projects-list">
-  {% for project in site.projects %}
+  {% assign sorted_projects = site.projects | sort: 'order' %}
+  {% for project in sorted_projects %}
       <div class="project-box">
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
@@ -19,7 +27,16 @@ todo
 </div>
 
 
+
 <style>
+
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between the grid items */
+    margin: 20px 0;
+  }
+
   .projects-container {
     display: flex;
     flex-wrap: wrap;
