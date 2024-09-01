@@ -93,18 +93,34 @@ title: Projects
   }
 
   .project-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff; /* Button color */
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px; /* Rounded button edges */
-    transition: background-color 0.3s ease; /* Smooth color transition */
+      display: inline-block;
+      padding: 12px 24px; /* Slightly larger padding for a more balanced look */
+      background-color: #002147; /* Darker blue for a more professional feel */
+      color: #ffffff; /* White text for contrast */
+      text-decoration: none;
+      font-weight: 600; /* Slightly bolder text */
+      border-radius: 6px; /* Slightly larger border-radius for a softer look */
+      border: 1px solid transparent; /* Subtle border for better definition */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for background color, shadow, and scale */
+      text-align: center; /* Center text inside the button */
+      cursor: pointer; /* Pointer cursor to indicate clickability */
+      font-size: 1em; /* Consistent font size */
+      line-height: 1.4; /* Improved line-height for better readability */
   }
 
-  .project-link:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+  .project-link:hover, .project-link:focus {
+      background-color: #004494; /* Even darker blue on hover/focus for a clear interaction effect */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover/focus */
+      transform: scale(1.02); /* Slight scale-up effect for interaction feedback */
   }
+
+  .project-link:active {
+      background-color: #003d7a; /* Darker blue when the button is actively pressed */
+      transform: scale(0.98); /* Slight scale-down effect for pressed state */
+  }
+
+
+
 </style>
 
