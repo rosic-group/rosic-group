@@ -12,7 +12,7 @@ permalink: /openings
 
 What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, What is it about, 
 
-Link to position opening can be found [here]({{ site.url }}/downloads/GeneralPostdoc_2019_v01.pdf).
+Link to position opening can be found [here]({{ site.url }}{{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf).
 
 ### Applications for PhD and Postdoc positions
 
