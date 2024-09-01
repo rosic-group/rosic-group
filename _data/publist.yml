@@ -1,19 +1,19 @@
 - title: "The Hybrid Pathway to Flexible Power Turbines, Part II: Fast Data Transfer Methods Between Varying Fidelity Simulations, to Enable Efficient Conjugate Thermal Field Prediction"
   image: Mark-Turbine-HTC.jpg
   description: The global drive toward renewable energy is imposing challenging operating requirements on power turbines. Flexible load-leveling applications must accept more frequent and demanding start-stop cycles. Full transient analyses are too computationally expensive for real-time simulation across all operating regimes so monitoring relies on sparse physical measurements. Alone, these sparse data lack the fidelity for real-time prediction of a complex thermal field. A novel hybrid methodology is proposed, coupling data across a range of fidelities to bridge the limitations in the individual analyses. Combining several fidelity methods in parallel; low-order models, corrected by real-time physical measurements, are calibrated with high-fidelity simulations. A newly developed low-order thermal network code is used to predict the thermal field in real-time. High-fidelity flow characteristics are routinely transferred to the decoupled low-order solution. A critical enabling feature of this hybrid approach is the fast data interpolation between differing fidelity numerical simulations. This paper evaluates a spatial Kriging method for robust data transfer between two different fidelity mesh, tested in the case of thermal profile prediction of a power turbine. Additionally, a novel coordinate-based hash mapping process is demonstrated for the fast high-to-low fidelity data transfer. Localized hashing allows independent, parallel, nearest neighbor search at significantly reduced computational cost. The demonstrated method facilitates fast mesh pairing, necessary to support the real-time hybrid method for thermal field prediction during turbine transient operation.
-  authors: Mark Baker and Budimir Rosic
-  year: 2023
+  authors: M. Baker and B. Rosic
+  year: 2024
   link:
     url: https://doi.org/10.1115/1.4063588
     display: ASME. J. Eng. Gas Turbines Power. March 2024; 146(3), 031021
   news1: <a style="color:#FF0000" href="https://www.asme.org/about-asme/honors-awards/unit-awards/asme-igti-committee-best-paper-and-tutorial-award">Awarded Best Paper at ASME Turbo Expo, Boston, 2023</a>    
   highlight: 1
-  group: cti
+  group: flex
 
 - title: "Experimental and Numerical Study for Improved Understanding of Mixed-Convection Type of Flows in Turbine Casing Cavities During Shut-Down Regimes"
   image: hairpin-vorticies.JPG
   description: Due to an increase in the power generation from renewable sources, steam and gas turbines will be required to adapt for more flexible operations with frequent start-ups and shut-downs to provide load leveling capacity. During shut-down regimes, mixed convection takes place with natural convection dominance depending on the operating conditions in turbine cavities. Buoyant flows inside the turbine that are responsible for nonuniform cooling leading to thermal stresses and compromise clearances directly limits the operational flexibility. Computational fluid dynamics (CFD) tools are required to predict the flow field during these regimes since direct measurements are extremely difficult to conduct due to the harsh operating conditions. Natural convection with the presence of cross-flow -mixed convection has not been extensively studied to provide detailed measurements. Since the literature lacks of research on such flows with real engine representative operating conditions for CFD validation, the confidence in numerical predictions is rather inadequate. This paper presents a novel experimental facility that has been designed and commissioned to perform very accurate unsteady temperature and flow field measurements in a simplified turbine casing geometry. The facility is capable of reproducing a wide range of Richardson, Grashof, and Reynolds numbers which are representative of engine realistic operating conditions. In addition, high fidelity, wall resolved large eddy simulation (LES) with dynamic Smagorinsky subgrid scale model has been performed. The flow field as well as heat transfer characteristics have been accurately captured with LES. Finally, the inadequacy of Reynolds-averaged Navier–Stokes (RANS) for the mixed type of flows has been highlighted. 
-  authors: Oguzhan Murat, Budimir Rosic, Koichi Tanimoto and Ryo Egami
+  authors: O. Murat, B. Rosic, K. Tanimoto and R. Egami
   year: 2021
   link:
     url: https://doi.org/10.1115/1.4052026
@@ -22,28 +22,28 @@
   highlight: 1
   group: flex
 
-- title: "Direct evidence for Cooper pairing without a spectral gap in a disordered superconductor above Tc"
-  image: Pairs3.png
-  description: We use our atomic-scale scanning tunneling noise setup on a disordered superconductor, and discover a state above TC that, much like an ordinary metal, has no (pseudo)gap, but carries charge via paired electrons.
-  authors: KM Bastiaans, D Chatzopoulos, J-F Ge, D Cho, WO Tromp, JM van Ruitenbeek, MH Fischer, PJ de Visser, DJ Thoen, EFC Driessen, TM Klapwijk, MP Allan
-  year: 2022
-  link:
-    url: https://www.science.org/doi/10.1126/science.abe3987
-    display: Science 374, 608 (2021)
-  highlight: 1
-  news1:   <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as 'Research Highlight' in Nature Physics by David Abergel</a>
-  news2: See [Physics World](https://physicsworld.com/a/cooper-pairs-spotted-above-critical-temperature-for-superconductivity/), [SRON news](https://www.sron.nl/news/5169-elektronparen-blijven-stabiel-boven-kritische-temperatuur-supergeleiding), [TU Delft news](https://www.tudelft.nl/en/2021/eemcs/inexplicably-stable-electron-pairs-without-superconductivity), [Leiden news](https://www.universiteitleiden.nl/en/news/2021/10/new-quantum-liquid-discovered).
-  group: dumb
 
-- title: Poor electronic screening in lightly doped Mott insulators observed with scanning tunneling microscopy
-  image: TIBB.png
-  description:
-    We develop a simple model to interpret STM results on lightly doped Mott insulators, and find that the effective Mott gap measured by STM correspons to the one measured with other techniques when taking into account the poor electronic screeing.
-  authors:
-    I Battisti, V Fedoseev, KM Bastiaans, A de la Torre, RS Perry, F Baumberger, MP Allan
-  year: 2021
+- title: "Influence of Combustor Flow With Swirl on Integrated Combustor Vane Concept Full-Stage Performance"
+  image: Jacobi-CTI-Wake.JPG
+  description: The integrated combustor vane concept for power generation gas turbines with can combustors has been shown to have significant benefits compared to conventional nozzle guide vanes (NGV). Aerodynamic loss, heat transfer levels, and cooling requirements are reduced while stage efficiency is improved by approximately 1.5% (for a no-swirl scenario). Engine realistic combustor flow with swirl, however, leads to increased turning nonuniformity downstream of the integrated vanes. This paper thus illustrates the altered integrated vane stage performance caused by inlet swirl. The study shows a distinct performance penalty for the integrated vane rotor as a result of increased rotor incidence and the rotor's interaction with the residual swirl core. The stage efficiency advantage of the integrated combustor vane concept compared to the conventional design is thus reduced to 0.7%. It is furthermore illustrated how integrated vane profiling is suitable to reduce the turning variation across the span downstream of the vane, further improve stage efficiency (in this case by 0.23%) and thus mitigate the distinct impact of inlet swirl on integrated vane stage performance.
+  authors: S. Jacobi and B. Rosic
+  year: 2018
   link:
-    url: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.95.235141
-    display: Phys. Rev. B 95, 235141, Editors' suggestion (2017)
-  highlight: 0
-  group: dumb
+    url:  https://doi.org/10.1115/1.4037820
+    display: ASME. J. Turbomach. January 2018; 140(1), 011002
+  # news1: <a style="color:#FF0000" href="https://www.asme.org/about-asme/honors-awards/unit-awards/asme-igti-committee-best-paper-and-tutorial-award">Awarded Best Paper at ASME Turbo Expo, Boston, 2023</a>    
+  highlight: 1
+  group: cti
+
+
+- title: "A New Experimental Facility to Investigate Combustor–Turbine Interactions in Gas Turbines With Multiple Can Combustors"
+  image: Luque-Nusselt.JPG
+  description: This paper describes a new modular experimental facility that was purpose-built to investigate flow interactions between the combustor and first stage nozzle guide vanes (NGVs) of heavy duty power generation gas turbines with multiple can combustors. The first stage turbine NGV is subjected to the highest thermal loads of all turbine components and therefore consumes a proportionally large amount of cooling air that contributes detrimentally to the stage and cycle efficiency. It has become necessary to devise novel cooling concepts that can substantially reduce the coolant air requirement but still allow the turbine to maintain its aerothermal performance. The present work aims to aid this objective by the design and commissioning of a high-speed linear cascade, which consists of two can combustor transition ducts and four first stage NGVs. This is a modular nonreactive air test platform with engine realistic geometries (gas path and near gas path), cooling system, and boundary conditions (inlet swirl, turbulence level, and boundary layer). The paper presents the various design aspects of the high pressure (HP) blow down type facility, and the initial results from a wide range of aerodynamic and heat transfer measurements under highly engine realistic conditions.
+  authors: S. Luque, V. Kanjirakkad, I. Aslanidou, R. Lubbock, B. Rosic and S. Uchida
+  year: 2015
+  link:
+    url:   https://doi.org/10.1115/1.4028714
+    display: ASME. J. Eng. Gas Turbines Power. May 2015; 137(5), 051503.
+  # news1: <a style="color:#FF0000" href="https://www.asme.org/about-asme/honors-awards/unit-awards/asme-igti-committee-best-paper-and-tutorial-award">Awarded Best Paper at ASME Turbo Expo, Boston, 2023</a>    
+  highlight: 1
+  group: cti
