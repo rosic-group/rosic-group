@@ -1,16 +1,16 @@
 ---
-title: Combustor-Turbine Interaction
-description: This project focuses on multifidelity modeling techniques to improve accuracy and efficiency in simulations.
-image: /images/newspic/Contest.jpg
+title: Combustor-Turbine Interactions
+description: Integrated computational and numerical studies of combustor and turbine with aerodynamic and heat transfer measurements.
+image: /images/newspic/Rosic-Integrated-Vane.JPG
 layout: research
-order: 4
+order: 1
 permalink: /projects/cti/
 ---
 
-# Project 2
+# Project 1
 
 This is the content of Project 1. You can include detailed information here, like objectives, outcomes, images, and links.
 
 # Related Publications
 
-Publications related to this project can be found <a href="{{ site.url }}{{ site.baseurl }}/publications/#combustor-turbine-interaction">here</a>
+Publications related to this project can be found <a href="{{ site.url }}{{ site.baseurl }}/publications/#combustor-turbine-interactions">here</a>
