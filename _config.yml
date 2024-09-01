@@ -30,7 +30,7 @@ incremental: false
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /projects/:path/
 
 # Markdown Processing
 kramdown:
