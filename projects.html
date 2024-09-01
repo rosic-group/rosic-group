@@ -17,7 +17,7 @@ title: Projects
   {% for project in sorted_projects %}
   {% assign filename = project.path | split: '/' | last %}
   <!-- TODO: remove this -->
-  {% unless filename == 'Multifidelity.md' or filename == 'TPMS.md' or filename == 'Multiscale.md' %}  
+  {% unless filename == 'multifidelity.md' or filename == 'tpms.md' or filename == 'multiscale.md' %}  
       <div class="project-box">
         <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
         <h2>{{ project.title }}</h2>

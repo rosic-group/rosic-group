@@ -4,7 +4,7 @@ description: "This project focuses on multifidelity modeling techniques to impro
 title: Multiscale Modelling to Accelerated Computational Fluid Dynamics
 image: /images/newspic/Contest.jpg
 order: 2
-permalink: /projects/mm/
+permalink: /projects/multiscale/
 ---
 
 # Project 1
