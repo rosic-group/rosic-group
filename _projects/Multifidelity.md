@@ -1,7 +1,7 @@
 ---
 title: Multifidelity
 description: This project focuses on multifidelity modeling techniques to improve accuracy and efficiency in simulations.
-image: /images/newspic/Contest.jpg
+image: Contest.jpg
 layout: research
 order: 3
 permalink: /projects/multifidelity/

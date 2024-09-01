@@ -1,7 +1,7 @@
 ---
 title: Combustor-Turbine Interactions
 description: Integrated computational and numerical studies of combustor and turbine with aerodynamic and heat transfer measurements.
-image: /images/newspic/Rosic-Integrated-Vane.JPG
+image: Rosic-Integrated-Vane.JPG
 layout: research
 order: 1
 permalink: /projects/cti/

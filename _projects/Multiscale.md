@@ -2,7 +2,7 @@
 layout: research
 description: "This project focuses on multifidelity modeling techniques to improve accuracy and efficiency in simulations."
 title: Multiscale Modelling to Accelerated Computational Fluid Dynamics
-image: /images/newspic/Contest.jpg
+image: Contest.jpg
 order: 2
 permalink: /projects/multiscale/
 ---

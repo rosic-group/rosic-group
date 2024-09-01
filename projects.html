@@ -19,12 +19,12 @@ title: Projects
   <!-- TODO: remove this -->
   {% unless filename == 'multifidelity.md' or filename == 'tpms.md' or filename == 'multiscale.md' %}  
       <div class="project-box">
-        <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ project.image }}" alt="{{ project.title }} image" class="project-image">
         <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
-        <a href="{{ project.url | relative_url }}">
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ project.url }}">
         </a>
-        <a href="{{ project.url | relative_url }}" class="project-link">Learn More</a>
+        <a href="{{ site.url }}{{ site.baseurl }}/{{ project.url }}" class="project-link">Learn More</a>
       </div>
   {% endunless %}
   {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: Flexible Turbine Operation
 description: Understanding and mitigating thermal stresses built-up during start-up/shutdown to improve turbine flexibility.
-image: /images/newspic/Andrew-Streamwise-Vorticies.JPG
+image: Andrew-Streamwise-Vorticies.JPG
 layout: research
 order: 5
 permalink: /projects/flexible_ops/
