@@ -24,6 +24,8 @@ At the end of this page, you can find the [full list of publications and patents
 <br/><br/>
 ### **Flexible Turbine Operation**
 
+See full project summary <a href="{{ site.url }}{{ site.baseurl }}/projects/flexible_ops/">here</a>
+
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
 
@@ -68,6 +70,9 @@ At the end of this page, you can find the [full list of publications and patents
 
 <br/><br/>
 ### **Combustor-Turbine Interactions**
+
+See full project summary <a href="{{ site.url }}{{ site.baseurl }}/projects/cti/">here</a>
+
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
