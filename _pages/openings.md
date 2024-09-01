@@ -1,5 +1,5 @@
 ---
-title: "Rosic Lab - Openings"
+title: "Rosic Group - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

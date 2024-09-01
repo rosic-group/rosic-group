@@ -1,5 +1,5 @@
 ---
-title: "Rosic Lab - Instrumente"
+title: "Rosic Group - Instrumente"
 layout: textlay
 excerpt: "AOA"
 sitemap: false

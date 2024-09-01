@@ -1,7 +1,7 @@
 ---
-title: "Rosic Lab - Pictures"
+title: "Rosic Group - Pictures"
 layout: piclay
-excerpt: "Rosic Lab -- Pictures"
+excerpt: "Rosic Group -- Pictures"
 permalink: /pictures/
 ---
 

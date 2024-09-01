@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Rosic Lab at University of Oxford."
+excerpt: "Rosic Group at University of Oxford."
 sitemap: false
 permalink: /allnews.html
 ---

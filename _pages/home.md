@@ -1,7 +1,7 @@
 ---
-title: "The Rosic Lab - Home"
+title: "The Rosic Group - Home"
 layout: homelay
-excerpt: "The Rosic lab at University of Oxford"
+excerpt: "The Rosic Group at University of Oxford"
 sitemap: false
 permalink: /
 ---
