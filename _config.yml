@@ -11,7 +11,7 @@ email: dylan.rubini@eng.ox.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   Website of the Rosic Group.
 baseurl: ""
-url: "https://rosic-group.github.io/"
+url: "/rosic-group"
 
 include:
   - .htaccess
