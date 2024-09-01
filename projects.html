@@ -15,9 +15,6 @@ title: Projects
 <div class="projects-list">
   {% assign sorted_projects = site.projects | sort: 'order' %}
   {% for project in sorted_projects %}
-  {% assign filename = project.path | split: '/' | last %}
-  <!-- TODO: remove this -->
-  {% unless filename == 'multifidelity.md' or filename == 'tpms.md' or filename == 'multiscale.md' %}  
       <div class="project-box">
         <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ project.image }}" alt="{{ project.title }} image" class="project-image">
         <h2>{{ project.title }}</h2>
@@ -26,7 +23,6 @@ title: Projects
         </a>
         <a href="{{ site.url }}{{ site.baseurl }}/{{ project.url }}" class="project-link">Learn More</a>
       </div>
-  {% endunless %}
   {% endfor %}
 </div>
 
